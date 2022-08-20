@@ -1,0 +1,32 @@
+{
+    "codeLens.enable": true,
+    "suggest.enablePreview": true,
+    "coc.preferences.extensionUpdateCheck": "daily",
+    "coc.preferences.formatOnSaveFiletypes": [
+        "html",
+        "css",
+        "javascript",
+        "python",
+        "c++",
+        "shell",
+        "json",
+        "yaml",
+        "vue",
+        "react"
+    ],
+    "prettier.tabWidth": 4,
+    "prettier.disableSuccessMessage": true,
+    "suggest.floatConfig": {
+        "border": true,
+        "borderhighlight": "Normal",
+        "highlight": "Normal"
+    },
+    "git.addedSign.hlGroup": "GitGutterAdd",
+    "git.changedSign.hlGroup": "GitGutterChange",
+    "git.removedSign.hlGroup": "GitGutterDelete",
+    "git.topRemovedSign.hlGroup": "GitGutterDelete",
+    "git.changeRemovedSign.hlGroup": "GitGutterChangeDelete",
+    "vetur.ignoreProjectWarning": true,
+    "colors.filetypes": ["*"],
+    "eslint.autoFixOnSave": true
+}
