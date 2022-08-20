@@ -21,5 +21,7 @@ pip install pynvim
 :CocInstall coc-snippets
 
 # install
+### git clone to the ~/.config/nvim
 
-git clone to the ~/.config/nvim
+cd ~/.config/nvim
+git clone https://github.com/yoscret/nvimConfigFrontend.git
