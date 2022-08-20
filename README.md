@@ -1,6 +1,6 @@
 nvim configuration for frontend html css javascript vue react develop,
 
-#dependences
+# dependences
 
 ## 1、install vimplus first
 
