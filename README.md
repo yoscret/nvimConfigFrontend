@@ -24,4 +24,5 @@ pip install pynvim
 ### git clone to the ~/.config/nvim
 
 cd ~/.config/nvim
+
 git clone https://github.com/yoscret/nvimConfigFrontend.git
