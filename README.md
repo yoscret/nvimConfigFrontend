@@ -22,9 +22,10 @@ pip install pynvim
 
 # install
 
-
+'''bash
 cd ~/.config/
 
 git clone https://github.com/yoscret/nvimConfigFrontend.git
 
 mv nvimConfigFrontend nvim
+'''
