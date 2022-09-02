@@ -164,6 +164,13 @@ Plug 'preservim/nerdcommenter'  " comment
 Plug 'turbio/bracey.vim', { 'do': 'npm install --prefix server', 'on': 'Bracey' }  " like live server on vscode
 Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
 Plug 'lukas-reineke/indent-blankline.nvim'
+Plug 'groenewege/vim-less'
+
+" bootstrap4 snippet plugin
+Plug 'jvanja/vim-bootstrap4-snippets'
+
+" bootstrap3 snippet plugin
+Plug 'chrisgillis/vim-bootstrap3-snippets'
 " Plug 'spolu/dwm.vim'
 " Plug 'lervag/vimtex'
 " Plug 'liuchengxu/vista.vim', { 'on': 'Vista!!' }
@@ -194,6 +201,9 @@ nnoremap <leader>H :execute ":help " . expand("<cword>")<cr>
 
 " 重新加载vimrc文件
 nnoremap <leader>s :source $MYVIMRC<cr>
+
+" less编译
+nnoremap <Leader><leader>l :w <BAR> !lessc % > %:t:r.css<CR><space>
 
 " 安装、更新、删除插件
 nnoremap <leader><leader>i :PlugInstall<cr>
@@ -252,7 +262,7 @@ nnoremap <silent> <leader>0 :RandomColorScheme<cr>
 nnoremap <silent> <leader>9 :ShowColorScheme<cr>
 
 " prepare-code
-" let g:prepare_code_plugin_path = expand($HOME . "/.vim/plugged/prepare-code")
+let g:prepare_code_plugin_path = expand($HOME . "/.config/nvim/plugged/prepare-code")
 
 " vim-buffer
 nnoremap <silent> <c-p> :PreviousBuffer<cr>
@@ -280,6 +290,10 @@ let g:NERDTreeDirArrowCollapsible='▼'
 nnoremap <silent> <leader>p :Prettier<cr>
 let g:prettier#autoformat = 1
 let g:prettier#autoformat_require_pragma = 0
+
+" markdown
+nnoremap <silent> <leader>m :MarkdownPreview<cr>
+nnoremap <silent> <leader>M :MarkdownPreviewStop<cr>
 
 " tagbar
 let g:tagbar_width = 30
