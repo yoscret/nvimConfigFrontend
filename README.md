@@ -16,9 +16,9 @@ yay -S nerd-fonts-fira-code
 
 pip install pynvim
 
-## 4、install coc-snippets
+## 4、install coc-snippets coc-prettier coc-emmet
 
-:CocInstall coc-snippets coc-prettier
+:CocInstall coc-snippets coc-prettier coc-emmet
 
 ## 5、 to quick install the all plugin
 ```
