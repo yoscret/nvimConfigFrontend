@@ -18,7 +18,12 @@ pip install pynvim
 
 ## 4、install coc-snippets
 
-:CocInstall coc-snippets
+:CocInstall coc-snippets coc-prettier
+
+## 5、 to quick install the all plugin
+```
+<leader><leader>i
+```
 
 # install
 
